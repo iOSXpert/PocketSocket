@@ -530,12 +530,11 @@
 				DSTROOT = /tmp/PocketSocket.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PocketSocket/PocketSocket-Prefix.pch";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "PocketSocket-Mac";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				VALID_ARCHS = x86_64;
 			};
 			name = Debug;
 		};
@@ -546,12 +545,11 @@
 				DSTROOT = /tmp/PocketSocket.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PocketSocket/PocketSocket-Prefix.pch";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "PocketSocket-Mac";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				VALID_ARCHS = x86_64;
 			};
 			name = Release;
 		};
@@ -652,7 +650,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos appletvos appletvsimulator";
+				SUPPORTED_PLATFORMS = macosx;
 			};
 			name = Debug;
 		};
@@ -700,7 +698,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos appletvos appletvsimulator";
+				SUPPORTED_PLATFORMS = macosx;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
