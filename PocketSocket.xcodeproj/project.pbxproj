@@ -531,7 +531,7 @@
 				DSTROOT = /tmp/PocketSocket.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PocketSocket/PocketSocket-Prefix.pch";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 13;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "PocketSocket-Mac";
 				SDKROOT = macosx;
@@ -546,7 +546,7 @@
 				DSTROOT = /tmp/PocketSocket.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PocketSocket/PocketSocket-Prefix.pch";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 13;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "PocketSocket-Mac";
 				SDKROOT = macosx;
